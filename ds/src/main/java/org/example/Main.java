@@ -1,5 +1,6 @@
 package org.example;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Iterator;
 
@@ -7,8 +8,27 @@ import java.util.Iterator;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        ArrayList<Integer> myArrayList = new ArrayList<>();
-        Iterator<Integer> myIterator = myArrayList.iterator();
+
+        MyArrayList myArrayList1 = new MyArrayList();
+        for (int i : myArrayList1.myArray){
+            System.out.println(i);
+        }
+        System.out.println("After adding 15 elements");
+        for (int i = 0; i < 15; i++){
+            myArrayList1.add(15);
+        }
+        for (int i : myArrayList1.myArray){
+            System.out.println(i);
+        }
+
+
+
+        ArrayList<Integer> myAL = new ArrayList<>();
+        System.out.println(myAL);
+        myAL.add(4);
+        myAL.add(5);
+        System.out.println(myAL);
+
 
     }
 }
