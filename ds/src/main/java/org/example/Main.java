@@ -13,21 +13,19 @@ public class Main {
         for (int i : myArrayList1.myArray){
             System.out.println(i);
         }
-        System.out.println("After adding 15 elements");
-        for (int i = 0; i < 15; i++){
-            myArrayList1.add(15);
+
+        for (int i = 0; i < 5; i++){
+            myArrayList1.add(5);
         }
+        System.out.println("After adding 25 elements");
+        int counter = 0;
         for (int i : myArrayList1.myArray){
-            System.out.println(i);
+            System.out.println("Element " + counter + ": " + i);
+            counter ++;
         }
 
+        System.out.println("Size: " + myArrayList1.size());
 
-
-        ArrayList<Integer> myAL = new ArrayList<>();
-        System.out.println(myAL);
-        myAL.add(4);
-        myAL.add(5);
-        System.out.println(myAL);
 
 
     }

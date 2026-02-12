@@ -24,7 +24,23 @@ public class MyArrayList {
         }
     }
 
+    public int size(){
+        return currentPosition;
+    }
+
+
+    //returns boolean value
+    public boolean remove(int k){
+        //how to handle if kth element doesnt exist
+
+        return true;
+    }
+
+    //returns the removed element
+    public int remove(String s){
+        return 0;
+    }
+
     //remove
     //get
-    //size
 }
