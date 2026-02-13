@@ -27,6 +27,15 @@ public class Main {
         System.out.println("Size: " + myArrayList1.size());
 
 
+        ArrayList<Integer> myAl = new ArrayList<>();
+        myAl.add(5);
+        myAl.add(4);
+        myAl.add(3);
+        System.out.println(myAl);
+
+
+        myAl.remove(1);
+        System.out.println(myAl);
 
     }
 }

@@ -31,15 +31,22 @@ public class MyArrayList {
 
     //returns boolean value
     public boolean remove(int k){
-        //how to handle if kth element doesnt exist
+        //properly throw exception - need to catch it?
+        if (k > currentPosition){
+            throw new IndexOutOfBoundsException();
+        }
+        //why arraylist doesnt have toString? is it coming from Collection or list?
+
+        //decrease index by 1
+
+        //how to handle when you pass object not index
+        //but if it is also int (the type), then how does it know?
+
+
 
         return true;
     }
 
-    //returns the removed element
-    public int remove(String s){
-        return 0;
-    }
 
     //remove
     //get
