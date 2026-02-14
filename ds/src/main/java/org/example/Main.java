@@ -14,10 +14,14 @@ public class Main {
             System.out.println(i);
         }
 
-        for (int i = 0; i < 5; i++){
-            myArrayList1.add(5);
-        }
-        System.out.println("After adding 25 elements");
+
+        myArrayList1.add(1);
+        myArrayList1.add(2);
+        myArrayList1.add(3);
+        myArrayList1.add(4);
+        myArrayList1.add(5);
+
+        System.out.println("After adding elements");
         int counter = 0;
         for (int i : myArrayList1.myArray){
             System.out.println("Element " + counter + ": " + i);
@@ -26,16 +30,26 @@ public class Main {
 
         System.out.println("Size: " + myArrayList1.size());
 
+        myArrayList1.remove(3);
 
-        ArrayList<Integer> myAl = new ArrayList<>();
-        myAl.add(5);
-        myAl.add(4);
-        myAl.add(3);
-        System.out.println(myAl);
+        System.out.println("After removing");
+        int counter1 = 0;
+        for (int i : myArrayList1.myArray){
+            System.out.println("Element " + counter1 + ": " + i);
+            counter1 ++;
+        }
+        System.out.println("Size: " + myArrayList1.size());
 
-
-        myAl.remove(1);
-        System.out.println(myAl);
+//
+//        ArrayList<Integer> myAl = new ArrayList<>();
+//        myAl.add(5);
+//        myAl.add(4);
+//        myAl.add(3);
+//        System.out.println(myAl);
+//
+//
+//        myAl.remove(1);
+//        System.out.println(myAl);
 
     }
 }

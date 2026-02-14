@@ -30,9 +30,9 @@ public class MyArrayList {
 
 
     //returns boolean value
-    public boolean remove(int k){
+    public int remove(int k){
         //properly throw exception - need to catch it?
-        if (k > currentPosition){
+        if (k > currentPosition || k < 0){
             throw new IndexOutOfBoundsException();
         }
         //why arraylist doesnt have toString? is it coming from Collection or list?
@@ -42,12 +42,25 @@ public class MyArrayList {
         //how to handle when you pass object not index
         //but if it is also int (the type), then how does it know?
 
+        //check what if it is just one element
+
+        int removedElement = myArray[k];
+        int[] reducedArray = new int[myArray.length];
+        for (int i = 0; i<k; i++){
+            reducedArray[i] = myArray[i];
+        }
+        for (int i = k; i < reducedArray.length-1; i++){
+            reducedArray[i] = myArray[i+1];
+        }
+        reducedArray[reducedArray.length-1] = 0; //pad 0 to the end for the removed element
+
+        currentPosition -= 1;
 
 
-        return true;
+        myArray = reducedArray;
+
+        return removedElement;
     }
-
-
-    //remove
+    
     //get
 }
