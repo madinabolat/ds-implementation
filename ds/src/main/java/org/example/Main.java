@@ -21,6 +21,7 @@ public class Main {
         myArrayList1.add(4);
         myArrayList1.add(5);
 
+        System.out.println("curr position: " + myArrayList1.currentPosition);
         System.out.println("After adding elements");
         int counter = 0;
         for (int i : myArrayList1.myArray){
@@ -30,7 +31,8 @@ public class Main {
 
         System.out.println("Size: " + myArrayList1.size());
 
-        myArrayList1.remove(3);
+        myArrayList1.remove(0);
+        System.out.println("curr position: " + myArrayList1.currentPosition);
 
         System.out.println("After removing");
         int counter1 = 0;
@@ -40,16 +42,21 @@ public class Main {
         }
         System.out.println("Size: " + myArrayList1.size());
 
+
+        System.out.println("requesting");
+        System.out.println(myArrayList1.get(2));
+
+
+//        ArrayList<Integer> myAL = new ArrayList<>();
+//        myAL.add(1);
+//        myAL.add(2);
+//        myAL.add(3);
+//        myAL.add(4);
+//        myAL.add(5);
+//        System.out.println(myAL);
 //
-//        ArrayList<Integer> myAl = new ArrayList<>();
-//        myAl.add(5);
-//        myAl.add(4);
-//        myAl.add(3);
-//        System.out.println(myAl);
-//
-//
-//        myAl.remove(1);
-//        System.out.println(myAl);
+//        myAL.get(10);
+
 
     }
 }
