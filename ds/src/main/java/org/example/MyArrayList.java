@@ -31,6 +31,12 @@ public class MyArrayList {
     //why arraylist doesnt have toString? is it coming from Collection or list?
 
 
+
+    //add methods:
+    //insert element to specific index
+    //remove - based on certain element - returns boolean
+
+
     //how to handle when you pass object not index
     //but if it is also int (the type), then how does it know?
     public int remove(int k){
