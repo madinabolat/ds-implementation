@@ -7,6 +7,8 @@ public class MyArrayList {
     int currentPosition = 0;
     int[] myArray;
 
+    //I did on int. should I change on Integer?
+
     public MyArrayList(){
         myArray = new int[defaultInitialCapacity];
     }

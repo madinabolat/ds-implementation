@@ -7,7 +7,6 @@ public class MyLinkedList {
         int value;
         Node next;
 
-        //need constructor?
         public Node(int value){
             this.value = value;
         }
@@ -15,10 +14,8 @@ public class MyLinkedList {
 
     Node head;
 
+
     //is the first element added to mylinkedlist is becoming its head?
-
-
-
 
 
 
