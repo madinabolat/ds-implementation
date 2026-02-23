@@ -41,8 +41,27 @@ public class MyLinkedList {
         return s;
     }
 
+
+    //get
+    //size
+    //remove
     //add to the end
     //add to specific index
+
+    public void get(int i){
+
+
+        if (head == null){
+            head = new Node(n);
+        } else {
+            Node temp = head;
+            while (temp.next!=null){
+                temp = temp.next;
+            }
+            temp.next = new Node(n);
+        }
+    }
+
 
 
     //is the first element added to mylinkedlist is becoming its head?
