@@ -3,6 +3,7 @@ package org.example;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.LinkedList;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -58,12 +59,22 @@ public class Main {
 //        myAL.get(10);
 
 
-        MyLinkedList myLL = new MyLinkedList();
-        System.out.println(myLL);
-        myLL.add(1);
-        myLL.add(2);
-        myLL.add(3);
-        System.out.println(myLL);
+//        MyLinkedList myLL = new MyLinkedList();
+//        System.out.println(myLL);
+//        myLL.add(0);
+////        myLL.add(1);
+////        myLL.add(2);
+////        myLL.add(3);
+////        myLL.add(4);
+////        myLL.add(5);
+//        System.out.println(myLL);
+//        myLL.remove(0);
+//        System.out.println(myLL);
 
+
+//        LinkedList<Integer> myL = new LinkedList<>();
+//        System.out.println(myL.get(0));
+
+        Stack
     }
 }
