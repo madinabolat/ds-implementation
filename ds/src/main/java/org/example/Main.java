@@ -75,6 +75,34 @@ public class Main {
 //        LinkedList<Integer> myL = new LinkedList<>();
 //        System.out.println(myL.get(0));
 
-        Stack
+        MyStack myStack = new MyStack();
+        System.out.println(myStack);
+        myStack.push(0);
+        myStack.push(1);
+        myStack.push(2);
+        System.out.println(myStack);
+        System.out.println(myStack.pop());
+        System.out.println(myStack.pop());
+        System.out.println(myStack.pop());
+        System.out.println(myStack.pop());
+
+
+
+//        MyArrayList myAL = new MyArrayList();
+//        System.out.println(myAL);
+//        myAL.add(0);
+//        myAL.add(1);
+//        myAL.add(2);
+//        myAL.add(3);
+//        myAL.add(4);
+//        myAL.add(5);
+//        System.out.println(myAL);
+//
+//        System.out.println("My Array List size: " + myAL.size());
+//        System.out.println(myAL.get(2));
+//        myAL.remove(2);
+//        System.out.println(myAL);
+//        System.out.println("Current position: " + myAL.currentPosition);
+
     }
 }

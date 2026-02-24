@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class MyArrayList {
     int defaultInitialCapacity = 10;
-    int currentPosition = 0;
+    int currentPosition = 0; // check this, what is it
     int[] myArray;
 
     //I did on int. should I change on Integer?
@@ -68,6 +68,19 @@ public class MyArrayList {
         }
         int requestedElement = myArray[k];
         return requestedElement;
+    }
+
+    @Override
+    public String toString(){
+        String s = "[";
+        int k = 0;
+        while (k < currentPosition){
+            s += myArray[k] + ",";
+            k++;
+        }
+        s = s.replaceAll(",$", "");
+        s+= "]";
+        return s;
     }
 
 }
