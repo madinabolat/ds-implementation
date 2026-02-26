@@ -34,6 +34,7 @@ public class MyLinkedList {
     }
 
     //need to add remove the object
+    //add exception if index element is null
     public void remove(int index){
         if (index > size) {
             throw new IndexOutOfBoundsException("Index is out of bound.");

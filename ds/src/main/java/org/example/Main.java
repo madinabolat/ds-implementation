@@ -59,32 +59,32 @@ public class Main {
 //        myAL.get(10);
 
 
-//        MyLinkedList myLL = new MyLinkedList();
-//        System.out.println(myLL);
+        MyLinkedList myLL = new MyLinkedList();
+        System.out.println(myLL);
 //        myLL.add(0);
-////        myLL.add(1);
-////        myLL.add(2);
-////        myLL.add(3);
-////        myLL.add(4);
-////        myLL.add(5);
-//        System.out.println(myLL);
-//        myLL.remove(0);
-//        System.out.println(myLL);
+//        myLL.add(1);
+//        myLL.add(2);
+//        myLL.add(3);
+//        myLL.add(4);
+//        myLL.add(5);
+        System.out.println(myLL);
+        myLL.remove(0);
+        System.out.println(myLL);
 
 
 //        LinkedList<Integer> myL = new LinkedList<>();
 //        System.out.println(myL.get(0));
 
-        MyStack myStack = new MyStack();
-        System.out.println(myStack);
-        myStack.push(0);
-        myStack.push(1);
-        myStack.push(2);
-        System.out.println(myStack);
-        System.out.println(myStack.pop());
-        System.out.println(myStack.pop());
-        System.out.println(myStack.pop());
-        System.out.println(myStack.pop());
+//        MyStack myStack = new MyStack();
+//        System.out.println(myStack);
+//        myStack.push(0);
+//        myStack.push(1);
+//        myStack.push(2);
+//        System.out.println(myStack);
+//        System.out.println(myStack.pop());
+//        System.out.println(myStack.pop());
+//        System.out.println(myStack.pop());
+//        System.out.println(myStack.pop());
 
 
 
