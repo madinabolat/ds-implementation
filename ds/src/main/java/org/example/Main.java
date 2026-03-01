@@ -59,17 +59,17 @@ public class Main {
 //        myAL.get(10);
 
 
-        MyLinkedList myLL = new MyLinkedList();
-        System.out.println(myLL);
-//        myLL.add(0);
-//        myLL.add(1);
-//        myLL.add(2);
-//        myLL.add(3);
-//        myLL.add(4);
-//        myLL.add(5);
-        System.out.println(myLL);
-        myLL.remove(0);
-        System.out.println(myLL);
+//        MyLinkedList myLL = new MyLinkedList();
+//        System.out.println(myLL);
+////        myLL.add(0);
+////        myLL.add(1);
+////        myLL.add(2);
+////        myLL.add(3);
+////        myLL.add(4);
+////        myLL.add(5);
+//        System.out.println(myLL);
+//        myLL.remove(0);
+//        System.out.println(myLL);
 
 
 //        LinkedList<Integer> myL = new LinkedList<>();
@@ -103,6 +103,10 @@ public class Main {
 //        myAL.remove(2);
 //        System.out.println(myAL);
 //        System.out.println("Current position: " + myAL.currentPosition);
+
+
+        MyQueue myQueue = new MyQueue();
+        myQueue.add(5);
 
     }
 }

@@ -26,7 +26,16 @@ public class MyQueue {
         //or restructure better the linked list
         return n;
     }
-    
+
+    public int poll(int n){
+        myLinkedList.get(0);
+
+    }
+
+    public int peek(int n){
+
+    }
+
     //poll
     //element
     //peek
