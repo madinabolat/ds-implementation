@@ -3,10 +3,9 @@ package org.example;
 import java.util.Queue;
 
 public class MyQueue {
-    MyLinkedList myLinkedList;
+    MyLinkedList myLinkedList = new MyLinkedList();
 
     //first in first out
-
 
     //for unlimited queue - always true
     //for limited queue - need to add exceptions
@@ -15,7 +14,8 @@ public class MyQueue {
         return true;
     }
 
-    public int remove(int n){
+    public int remove(){
+        int n = myLinkedList.get(0);
         myLinkedList.remove(0);
         //need to throw Throws:
         //NoSuchElementException – if this queue is empty
@@ -27,20 +27,17 @@ public class MyQueue {
         return n;
     }
 
-    public int poll(int n){
-        myLinkedList.get(0);
-
+    public int peek(){
+        return myLinkedList.get(0);
     }
 
-    public int peek(int n){
-
+    @Override
+    public String toString(){
+        return myLinkedList.toString();
     }
 
     //poll
+    //offer
     //element
-    //peek
 
-
-
-    
 }

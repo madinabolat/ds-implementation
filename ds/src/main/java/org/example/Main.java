@@ -106,7 +106,21 @@ public class Main {
 
 
         MyQueue myQueue = new MyQueue();
-        myQueue.add(5);
+//        myQueue.add(5);
+        System.out.println(myQueue);
+//        myQueue.add(5);
+//        myQueue.add(4);
+//        myQueue.add(3);
+        System.out.println(myQueue);
+//        myQueue.remove();
+//        System.out.println(myQueue);
+//        myQueue.remove();
+//        System.out.println(myQueue);
 
+//        System.out.println(myQueue.peek());
+//
+//        System.out.println(myQueue.peek());
+
+        myQueue.remove();
     }
 }
