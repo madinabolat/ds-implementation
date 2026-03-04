@@ -1,9 +1,7 @@
 package org.example;
 
 import java.lang.reflect.Array;
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.LinkedList;
+import java.util.*;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -105,22 +103,49 @@ public class Main {
 //        System.out.println("Current position: " + myAL.currentPosition);
 
 
-        MyQueue myQueue = new MyQueue();
-//        myQueue.add(5);
-        System.out.println(myQueue);
-//        myQueue.add(5);
-//        myQueue.add(4);
-//        myQueue.add(3);
-        System.out.println(myQueue);
-//        myQueue.remove();
+//        MyQueue myQueue = new MyQueue();
+////        myQueue.add(5);
 //        System.out.println(myQueue);
-//        myQueue.remove();
+////        myQueue.add(5);
+////        myQueue.add(4);
+////        myQueue.add(3);
 //        System.out.println(myQueue);
-
-//        System.out.println(myQueue.peek());
+////        myQueue.remove();
+////        System.out.println(myQueue);
+////        myQueue.remove();
+////        System.out.println(myQueue);
 //
-//        System.out.println(myQueue.peek());
+////        System.out.println(myQueue.peek());
+////
+////        System.out.println(myQueue.peek());
+//
+//        myQueue.remove();
 
-        myQueue.remove();
+        MyHashMap myHashMap = new MyHashMap();
+        System.out.println(myHashMap);
+        myHashMap.put(1,100);
+        myHashMap.put(1,1000);
+        myHashMap.put(1,10000);
+        myHashMap.put(17,1000);
+        myHashMap.put(2,200);
+        myHashMap.put(2,400);
+        myHashMap.put(33,400);
+        myHashMap.put(2,4000);
+        System.out.println(myHashMap);
+        System.out.println(myHashMap.size());
+        myHashMap.remove(33);
+        System.out.println(myHashMap);
+        System.out.println(myHashMap.containsKey(2));
+
+//        Map<Integer, String> map = new HashMap<>();
+//        map.put(1,"madina");
+//        map.put(2, "got");
+//        map.put(3, "her");
+//        map.put(4, "green card!");
+//        map.put(1,"Madishok");
+//        System.out.println(map);
+//        System.out.println(map.containsKey(4));
+
+
     }
 }
