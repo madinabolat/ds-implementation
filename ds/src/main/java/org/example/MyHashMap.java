@@ -103,7 +103,23 @@ public class MyHashMap {
 
     }
 
-//   implement: keySet, entrySet
+    public boolean isEmpty(){
+        return size == 0;
+    }
+
+    //original java: keySet uses caching, inner class
+    public int[] keySet(){
+        int[] keys = new int[size];
+        int k = 0;
+        for (Node node : buckets){
+            while (node != null){
+                keys[k] = node.key;
+                node = node.next;
+                k++;
+            }
+        }
+        return keys;
+    }
 
     @Override
     public String toString(){

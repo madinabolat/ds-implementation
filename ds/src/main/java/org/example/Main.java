@@ -121,21 +121,22 @@ public class Main {
 //
 //        myQueue.remove();
 
-        MyHashMap myHashMap = new MyHashMap();
-        System.out.println(myHashMap);
-        myHashMap.put(1,100);
-        myHashMap.put(1,1000);
-        myHashMap.put(1,10000);
-        myHashMap.put(17,1000);
-        myHashMap.put(2,200);
-        myHashMap.put(2,400);
-        myHashMap.put(33,400);
-        myHashMap.put(2,4000);
-        System.out.println(myHashMap);
-        System.out.println(myHashMap.size());
-        myHashMap.remove(33);
-        System.out.println(myHashMap);
-        System.out.println(myHashMap.containsKey(2));
+//        MyHashMap myHashMap = new MyHashMap();
+//        System.out.println(myHashMap);
+//        myHashMap.put(1,100);
+//        myHashMap.put(1,1000);
+//        myHashMap.put(1,10000);
+//        myHashMap.put(17,1000);
+//        myHashMap.put(2,200);
+//        myHashMap.put(2,400);
+//        myHashMap.put(33,400);
+//        myHashMap.put(2,4000);
+//        System.out.println(myHashMap);
+//        System.out.println(myHashMap.size());
+//        myHashMap.remove(33);
+//        System.out.println(myHashMap);
+//        System.out.println(myHashMap.containsKey(2));
+//        System.out.println(myHashMap.keySet());
 
 //        Map<Integer, String> map = new HashMap<>();
 //        map.put(1,"madina");
@@ -145,6 +146,20 @@ public class Main {
 //        map.put(1,"Madishok");
 //        System.out.println(map);
 //        System.out.println(map.containsKey(4));
+
+
+        MyHashSet myHashSet = new MyHashSet();
+        System.out.println(myHashSet);
+        myHashSet.add(5);
+        myHashSet.add(3);
+        myHashSet.add(3);
+        myHashSet.add(3);
+        myHashSet.add(2);
+        myHashSet.add(1);
+        System.out.println(myHashSet);
+        myHashSet.remove(1);
+        System.out.println(myHashSet);
+        System.out.println(myHashSet.size());
 
 
     }
