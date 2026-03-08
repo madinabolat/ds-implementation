@@ -8,4 +8,11 @@ public class MyHeap {
 
     //insert
 
+    //      1
+    //    /  \
+    //   3    5
+    // [1,3,5] array
+
+
+
 }
